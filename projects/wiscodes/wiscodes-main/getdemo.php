@@ -77,27 +77,27 @@
     -- Create a sample table    <br>
 
     CREATE TABLE books (
-        <br>
+        
         id INT AUTO_INCREMENT PRIMARY KEY,
-        <br>
+        
         title VARCHAR(255) NOT NULL,
-        <br>
+       
         author VARCHAR(255) NOT NULL,
-        <br>
+       
         year_published YEAR NOT NULL
     );
     <br>    <br>
 
     -- Insert some sample data
-    <br>
+ 
     INSERT INTO books (title, author, year_published) VALUES
-    <br>
+  
     ('PHP for Beginners', 'John Doe', 2020),
-    <br>
+   
     ('Advanced PHP Programming', 'Jane Smith', 2019),
-    <br>
+    
     ('Learning MySQL', 'Alex Johnson', 2018),
-    <br>
+  
     ('Web Development with PHP and MySQL', 'Emily Davis', 2021);
 </code>
 </p>
